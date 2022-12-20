@@ -363,9 +363,10 @@ span.git::before{width: 30%;}
 }
 .pjt_head{
   display: flex;
-  width: 70%;
-  margin: 0 auto;
-  justify-content: center;
+  width: 95%;
+  margin:auto;
+  justify-content: space-between;
+  padding: 0 2rem;
   border-radius: .2rem;
   align-items: center;
   background-color: #27bbffa6;
@@ -373,7 +374,7 @@ span.git::before{width: 30%;}
 }
 .pjt_name{
   text-align: center;
-  padding:.5rem 3rem;
+  padding:.5rem 1rem;
 }
 .pjt_dt_btn{
   border: none;
