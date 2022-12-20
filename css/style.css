@@ -363,30 +363,30 @@ span.git::before{width: 30%;}
 }
 .pjt_head{
   display: flex;
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   justify-content: center;
+  border-radius: .2rem;
   align-items: center;
+  background-color: #27bbffa6;
   gap: .2rem;
 }
 .pjt_name{
   text-align: center;
-  background-color: #2baeea93;
-  border-radius: 1rem;
   padding:.5rem 3rem;
 }
 .pjt_dt_btn{
-  border: .15rem solid;
-  border-color: #2baeea93;
+  border: none;
   background-color: transparent;
-  border-radius: 1rem;
-  padding: .1rem .5rem;
-  font-size: 1.8rem;
+  padding: .5rem .5rem;
+  line-height: .5rem;
+  font-size: 1.6rem;
   text-align: center;
   cursor: pointer;
 }
 .rotate_i{
-  transition: all 1s linear;
-  transform: rotate(-180deg);
+  transition: transform .2s ease-in-out;
+  transform: rotate(90deg);
 }
 .pjt_detail{
   width: 100%;
@@ -395,19 +395,16 @@ span.git::before{width: 30%;}
   border: .12rem solid #000;
   border-radius: .3rem;
   display: none;
-  transition: all 1s linear;
-  transform-origin: top;
 }
 .dt_show{
   display: block;
 }
 .pjt_detail h3{
   font-weight: 400;
-  font-size: 1.6rem;
-  text-decoration: underline;
+  font-size: 1.4rem;
 }
 ul{
-  margin-left: 3rem;
+  margin-left: 2rem;
   text-align: left;
 }
 .pjt-1,.pjt-2{
